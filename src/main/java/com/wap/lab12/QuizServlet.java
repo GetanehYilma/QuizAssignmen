@@ -47,7 +47,6 @@ public class QuizServlet extends HttpServlet {
                     "<body>\n" +
                     "<div style=\"width: 50%\">\n" +
                     "    <fieldset>\n" +
-                    "        <legend>Number Quiz!</legend>\n" +
                     "        <form action=\"\" method=\"post\">\n" +
                     "            <p>Your current score is " +
                     "               <input name=\"score\" type=\"text\" readonly style=\"border: none\" value = \"" + quiz.getScore() + "\"/></p>\n" +
